@@ -11,15 +11,60 @@
 </head>
 <body>
     <header>
+        <h1 style="text-align: center;">Music Playlist Explorer</h1>
         <!-- Your header content here -->
     </header>
 
-    <main> 
+    <main>
+        <section id="feature-back">
+            <a href="featured.html" id="toFeature">Feature</a> 
+        </section>
+        <section class="playlist-gallery">
+            <!-- <p>playlist gallery here</p>  -->
+            <div class="playlist-cards" id = "all-cards">
+            </div>     
+        </section>
         <!-- Your main content here -->
     </main>
 
+    <div id="playlist-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close">
+                X
+            </button>
+            <div>
+                <span>
+                    <img class="modal-image" src="assets/img/playlist.png">
+                </span>
+                <span>
+                    <h2>Playlist Title</h2>
+                    <h3>Creator Name</h3>
+                </span>
+            </div>
+            <button id="shuffle">
+                Shuffle
+            </button>
+            <div class="modal-song">
+                <span class="modal-song-image">
+                    <img class="song-image" src="assets/img/song.png">
+                </span>
+                <span class="modal-song-info">
+                    <section>
+                        <h3 class="song-title">Song Title</h2>
+                        <p class="artist-name">Artist Name</p>
+                        <p class="album-name">Album Name</p>
+                    </section>
+                </span>
+                <span class="modal-song-time">
+                    0.00
+                </span>
+            </div>
+        </div>
+    </div>
+
     <footer>
         <!-- Your footer content here -->
+        <p></p>
     </footer>
     <script src="data/data.js"></script>
     <script src="script.js"></script>
