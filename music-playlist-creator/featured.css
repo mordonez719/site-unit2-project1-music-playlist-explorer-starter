@@ -1,0 +1,79 @@
+#feature-body{
+    background-color: black;
+}
+
+#feature-main{
+    display: flex;
+    overflow: scroll;
+    height: 725px;
+}
+
+#feature-header{
+    background-color: #f2dcf6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#feature-title{
+    width: 100%;
+    color: #f2dcf6;
+    padding-left: 20px;
+    margin-bottom: 0%;
+}
+
+#feature-songs{
+    color: #f2dcf6;
+    /* padding-left: 20px; */
+}
+
+#feature-img{
+    height: 400px;
+    width: auto;
+    margin-top: 20px;
+    margin-left: 20px;
+    object-fit: cover;
+    box-shadow: 1px 1px 30px 0.5px #f2dcf6;
+    border-radius: 5%;
+}
+
+.feature-info{
+    position: absolute;
+    top: 150px;
+    left: 450px;
+    width: 1000px;
+    /* align-self: flex-end; */
+}
+
+.feature-song-time{
+    align-self: flex-end;
+    margin-left: 300px;
+}
+
+.feature-song{
+    border: 2px solid #f2dcf6;
+    display: flex;
+    margin-bottom: 10px;
+    /* flex-direction: column; */
+}
+.feature-song-image{
+    width: 100px;
+}
+
+.feature-song-info{
+    margin-left: 5%;
+}
+
+#toHome{
+    color:black;
+    /* padding: 10px; */
+    /* align-self: flex-end; */
+    font-size: large;
+    padding-bottom: 10px;
+}
+
+footer{
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #f2dcf6;
+}
