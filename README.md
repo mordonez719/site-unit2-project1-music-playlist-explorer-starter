@@ -13,17 +13,17 @@ Estimated time spent: 20 hours spent in total
   - [X] Fetch data from a provided JSON file and use it to create interactive playlist tiles.
   - [X] Each title should display the playlist's cover image, name, creator, and like count.
 
-- [ ] **Playlist Details**
-  - [] Create a modal view that displays detailed information about a playlist when a user clicks on a playlist tile.
-  - [ ] The modal should show the playlist's cover image, name, creator, and a list of songs, including their titles, artists, and durations.
+- [X] **Playlist Details**
+  - [X] Create a modal view that displays detailed information about a playlist when a user clicks on a playlist tile.
+  - [X] The modal should show the playlist's cover image, name, creator, and a list of songs, including their titles, artists, and durations.
 
 - [X] **Like Playlists**
   - [X] Implement functionality to allow users to like playlists by clicking a heart icon on each playlist tile.
   - [X] Update the like count on the playlist tile when a playlist is liked or unliked.
 
-- [ ] **Shuffle Songs**
-  - [ ] Enable users to shuffle the songs within a playlist using a shuffle button in the playlist detail modal.
-  - [ ] Rearrange the songs in the modal view when the shuffle button is clicked.
+- [X] **Shuffle Songs**
+  - [X] Enable users to shuffle the songs within a playlist using a shuffle button in the playlist detail modal.
+  - [X] Rearrange the songs in the modal view when the shuffle button is clicked.
 
 #### STRETCH FEATURES
 
